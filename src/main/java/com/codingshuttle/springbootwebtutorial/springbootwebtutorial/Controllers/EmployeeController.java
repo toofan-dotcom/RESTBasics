@@ -61,4 +61,10 @@ public class EmployeeController {
     return  employeeService.updatePartialEmployee(employeeId,updates);
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
+
+
 }
