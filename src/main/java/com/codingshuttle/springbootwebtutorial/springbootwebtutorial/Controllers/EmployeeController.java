@@ -66,5 +66,12 @@ public class EmployeeController {
         return "test";
     }
 
+    @GetMapping("/hi")
+    public int getNumber(){
+        return 5;
+    }
+
+
+
 
 }
